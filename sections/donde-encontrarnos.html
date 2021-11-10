@@ -15,41 +15,53 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@200&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a579c7b3fb.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="../estilos/estilo.css">
+    <link rel="stylesheet" href="../estilos/main.css">
 </head>
 
 <body>
 
     <!-------------------------------Header------------------------------------->
 
-    <header class="header">
-      <nav class="nav navbar navbar-expand-lg navbar-light bg-light aling-item-center">
-          <div class="container-fluid">
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
-                  aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-              </button>
-              <a class="navbar-brand" href="../index.html"><img class="logo" src="../img/logoAberturasTito.jpg" alt="logoAberturasTito"></a>
-              <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-                  <ul class="navbar-nav me-auto mb-2 mb-lg-0 aling-items-center aling-item-center">
-                      <li class="nav-item">
-                          <a class="nav-link active" aria-current="page" href="../sections/contacto.html">Contacto</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link active" aria-current="page" href="../sections/donde-encontrarnos.html">Donde encontrarnos</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link active" aria-current="page" href="../sections/nosotros.html">Nosotros</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link active" aria-current="page" href="../sections/productos.html">Productos</a>
-                      </li>
+    <nav class="navbar-edit navbar navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html"><img src="../img/logoAberturasTito.jpg" alt="logoAberturasTito" class="logo"></a>
+          <button class="navbar-toggler navbar-toggler-edit" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body offcanvas-edit">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="../sections/nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="../sections/contacto.html">Contacto</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="../sections/donde-encontrarnos.html">Donde encontrarnos</a>
+                </li>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../sections/preguntas-frecuentes.html">Preguntas Frecuentes</a>
+              </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Productos
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                    <li><a class="dropdown-item" href="../aberturas-tito-page/subsections/ventanas.html">Ventanas</a></li>
+                    <li><a class="dropdown-item" href="../aberturas-tito-page/subsections/puertas.html">Puertas</a></li>
                   </ul>
-              </div>
+                </li>
+              </ul>
+            </div>
           </div>
+        </div>
       </nav>
-    </header>  
 
     <!-------------------------------Main------------------------------------->
     <P>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum eum veniam incidunt debitis, quis eius ipsam, rem quisquam tempore, est nostrum vero possimus quo dolorem harum necessitatibus repellendus. Sed, ut!

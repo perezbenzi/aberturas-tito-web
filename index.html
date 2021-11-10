@@ -13,6 +13,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&display=swap" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@200&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a579c7b3fb.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./estilos/main.css">
@@ -36,22 +39,26 @@
           <div class="offcanvas-body offcanvas-edit">
             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Nosotros</a>
+                <a class="nav-link active" aria-current="page" href="./sections/nosotros.html">Nosotros</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Contacto</a>
+                <a class="nav-link active" aria-current="page" href="./sections/contacto.html">Contacto</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Donde encontrarnos</a>
+                <a class="nav-link active" aria-current="page" href="./sections/donde-encontrarnos.html">Donde encontrarnos</a>
               </li>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./sections/preguntas-frecuentes.html">Preguntas Frecuentes</a>
+            </li>
             </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Productos
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
-                  <li><a class="dropdown-item" href="#">Ventanas</a></li>
-                  <li><a class="dropdown-item" href="#">Puertas</a></li>
+                  <li><a class="dropdown-item" href="../aberturas-tito-page/subsections/ventanas.html">Ventanas</a></li>
+                  <li><a class="dropdown-item" href="../aberturas-tito-page/subsections/puertas.html">Puertas</a></li>
                 </ul>
               </li>
             </ul>
@@ -60,33 +67,64 @@
       </div>
     </nav>
 
-    <!-------------------------------Main------------------------------------->
+  <!-----------------------------------Main----------------------------------------->
+
+  <!-----------------------------Main (First Section)----------------------------->
     
     <main class="main">
-      <div class="imagen-portada-edit imagen-portada">
+      <div class="imagen-portada">
+        <div class="div-main">
+            <h1>Aberturas todo el año.</h1>
+            <p>Desde 1999 brindando el mejor servicio de la zona.</p>
+            <a href="./secciones/contacto.html">
+                <div class="boton">
+                    <p class="contactanos">Contactanos</p>
+                </div>
+            </a>
+        </div>
+      </div>
+
+  <!-----------------------------Main (Second Section)----------------------------->
+
+      <div class="container container-edit">
+        <div class="row-edit row row-cols-2">
+          <div class="col col-edit"><a href=""><h3>Conocenos</h3></a><p class="text-second-div">Descubri nuestra historia, de donde somos y a donde vamos.</p><hr></div>
+          <div class="col col-edit"><a href=""><h3>En donde econtrarnos</h3></a><p class="text-second-div">Averigua como llegar hasta nuestro local.</p><hr></div>
+          <div class="col col-edit"><a href=""><h3>Nuestros productos</h3></a><p class="text-second-div">Conoce nuestros productos, qué linea trabajamos y más.</p><hr></div>
+          <div class="col col-edit"><a href="./sections/preguntas-frecuentes.html"><h3>Preguntas frecuentes</h3></a><p class="text-second-div">Contestamos algunas de las dudas mas frecuentes entre nuestros clientes.</p><hr></div>
+        </div>
+      </div>
+      
+      <!-----------------------------Main (Third Section)----------------------------->
+      
+      <div class="container-edit-2">
+        <div class="row row-cols-2">
+          <div class="col col-edit-third-section"><img src="./img/ventana-corrediza.jpg" alt="ventena-corrediza" class="img-third-section"></div>
+          <div class="col col-edit-third-section2"><h2>Ventanas</h2><p>En nuestra seccion de ventanas vas a encontrar desde ventanas blacon, ventiluces, guillotinas y ventanas corredizas. Recorda que toda nuestra mercaderia es de linea herrero, si no conces la diferencia podes buscar mas informacion en nuestra seccion "Preguntas frecuentes".</p><button type="button" class="btn btn-outline-primary">Más información</button></div>
+          <div class="col col-edit-third-section2"><h2>Puertas</h2><p>En la seccion puertas podras tanto puertas de frente como de salida a calle, para mas informacio o si requeris de un presupuesto personalizado podes escribirnos por WhatsApp desde la seccion "Contacto"</p><button type="button" class="btn btn-outline-primary">Más información</button></div>
+          <div class="col col-edit-third-section"><img src="./img/puerta-abrir.jpg" alt="puerta-abrir" class="img-third-section"></div>
+        </div>
+      </div>
+
+      <!-----------------------------Main (Fourth Section)----------------------------->
+
+      <main class="section-acesorarse">
+        <div class="imagen-portada-acesorarse">
           <div class="div-main">
-              <h1>Aberturas todo el año.</h1>
-              <p>Desde 1999 brindando el mejor servicio de la zona.</p>
+              <h1>Estamos para ayudarte.</h1>
+              <p>En estos tiempos de incertidumbre, estamos listos para brindar el mismo gran servicio.</p>
               <a href="./secciones/contacto.html">
                   <div class="boton">
-                      <p class="contactanos">Contactanos</p>
+                      <p class="contactanos">Acesorase</p>
                   </div>
               </a>
           </div>
-      </div>
-      
-      <div>
-          <section>
-              <div>
-                  <div>
-                      <h1>Somos especialistas en linea herrero.<h1>
-                              <h2>Toda nuestra mercaderia es de aluminio blanco, reforzado y traen el vidrio colocado
-                              </h2>
-                  </div>
-              </div>
+        </div>
+    </main>
+    
 
     <!--------------------------------Footer------------------------------------>
-
+    
     <footer class="footer-page">
       <div class="grupo1pie">
           <div class="box">
@@ -113,6 +151,6 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
   </script>
-  </body>
+</body>
 
 </html>

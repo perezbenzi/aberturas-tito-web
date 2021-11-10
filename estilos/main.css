@@ -6,10 +6,15 @@
   list-style: none;
   text-decoration: none;
   font-family: 'Noto Sans Display', sans-serif;
-  font-weight: 800;
+  font-weight: 500;
   color: black;
 }
 
+p {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/*----------------------------------------------------------General----------------------------------------------------------*/
 /*-----------------------------Navbar-----------------------------*/
 .navbar-edit {
   background-color: #4f36aa !important;
@@ -29,49 +34,6 @@
   width: 15rem;
   border: solid rgba(0, 0, 0, 0.356);
   border-width: 0.09rem;
-}
-
-/*-----------------------------Main-----------------------------*/
-.main {
-  padding-top: 1rem;
-}
-
-.main .imagen-portada {
-  height: 60vh;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  background-size: cover;
-  background-image: white;
-  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(107, 106, 106, 0.349)), to(rgba(255, 255, 255, 0.082))), url(../img/fondoAluminioEsquinas.jpg);
-  background-image: linear-gradient(0deg, rgba(107, 106, 106, 0.349) 0%, rgba(255, 255, 255, 0.082) 100%), url(../img/fondoAluminioEsquinas.jpg);
-}
-
-.boton {
-  padding: 0.4rem;
-  border: solid black;
-  border-width: 0.1rem;
-  display: inline-block;
-  border-radius: 3.5px;
-  font-weight: 800px;
-  background-color: rgba(88, 85, 85, 0.644);
-}
-
-.boton:hover {
-  padding: 0.6rem 0.6rem;
-  -webkit-transition: all 0.2s linear;
-  transition: all 0.2s linear;
-}
-
-.boton .contactanos {
-  margin-bottom: 0rem;
 }
 
 /*-------------------------Footer-------------------------*/
@@ -131,5 +93,182 @@ figure img {
   background-color: #301886;
   padding: 10px 15px;
   text-align: center;
+}
+
+/*----------------------------------------------------------Inicio----------------------------------------------------------*/
+/*-----------------------------Main (First Section)-----------------------------*/
+.main {
+  padding-top: 1rem;
+}
+
+.main .imagen-portada {
+  height: 60vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: dimgray;
+  background-blend-mode: soft-light;
+  background-image: white;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(107, 106, 106, 0.349)), to(rgba(255, 255, 255, 0.082))), url(../img/imagen-fondo.jpg);
+  background-image: linear-gradient(0deg, rgba(107, 106, 106, 0.349) 0%, rgba(255, 255, 255, 0.082) 100%), url(../img/imagen-fondo.jpg);
+}
+
+.boton {
+  padding: 0.4rem;
+  border: solid black;
+  border-width: 0.1rem;
+  display: inline-block;
+  border-radius: 3.5px;
+  font-weight: 800px;
+  background-color: rgba(88, 85, 85, 0.644);
+}
+
+.boton:hover {
+  padding: 0.6rem 0.6rem;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+.boton .contactanos {
+  margin-bottom: 0rem;
+}
+
+.second-div-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/*-----------------------------Main (Second Section)-----------------------------*/
+.container-edit {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+.row-edit {
+  text-decoration: none;
+  margin-left: 2rem;
+}
+
+.col-edit {
+  padding: 0.8rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+.text-second-div {
+  color: #5e5e5e;
+}
+
+/*-----------------------------Main (Third Section)-----------------------------*/
+.container-edit-2 {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #dfdfe0;
+}
+
+.img-third-section {
+  width: 500px;
+}
+
+.col-edit-third-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.col-edit-third-section2 {
+  background-color: #f3f1f1;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5rem;
+}
+
+/*-------------------------Section Acesorarse-------------------------*/
+.section-acesorarse .imagen-portada-acesorarse {
+  height: 60vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-size: cover;
+  background-color: dimgray;
+  background-blend-mode: soft-light;
+  background-image: white;
+  background-attachment: fixed;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(107, 106, 106, 0.349)), to(rgba(255, 255, 255, 0.082))), url(../img/img-acesorarse.jpg);
+  background-image: linear-gradient(0deg, rgba(107, 106, 106, 0.349) 0%, rgba(255, 255, 255, 0.082) 100%), url(../img/img-acesorarse.jpg);
+}
+
+.boton {
+  padding: 0.4rem;
+  border: solid black;
+  border-width: 0.1rem;
+  display: inline-block;
+  border-radius: 3.5px;
+  font-weight: 800px;
+  background-color: rgba(88, 85, 85, 0.644);
+}
+
+.boton:hover {
+  padding: 0.6rem 0.6rem;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+.boton .contactanos {
+  margin-bottom: 0rem;
+}
+
+.second-div-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/*----------------------------------------------------------Preguntas frecuentes----------------------------------------------------------*/
+.accordion-edit {
+  padding: 5rem;
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+}
+
+.title-faq {
+  font: inherit;
+  margin-top: 4rem;
+  padding: 4rem;
+  background-color: #f3f1f1;
+  text-align: center;
+}
+
+.final-faq {
+  text-align: center;
+  background-color: #f3f1f1;
 }
 /*# sourceMappingURL=main.css.map */
