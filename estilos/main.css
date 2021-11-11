@@ -6,7 +6,7 @@
   list-style: none;
   text-decoration: none;
   font-family: 'Noto Sans Display', sans-serif;
-  font-weight: 500;
+  font-weight: 800;
   color: black;
 }
 
@@ -118,8 +118,8 @@ figure img {
   background-color: dimgray;
   background-blend-mode: soft-light;
   background-image: white;
-  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(107, 106, 106, 0.349)), to(rgba(255, 255, 255, 0.082))), url(../img/imagen-fondo.jpg);
-  background-image: linear-gradient(0deg, rgba(107, 106, 106, 0.349) 0%, rgba(255, 255, 255, 0.082) 100%), url(../img/imagen-fondo.jpg);
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(107, 106, 106, 0.349)), to(rgba(255, 255, 255, 0.082))), url(../img/img-aberturas-varias.jpg);
+  background-image: linear-gradient(0deg, rgba(107, 106, 106, 0.349) 0%, rgba(255, 255, 255, 0.082) 100%), url(../img/img-aberturas-varias.jpg);
 }
 
 .boton {
@@ -267,8 +267,69 @@ h3 {
   text-align: center;
 }
 
-.final-faq {
+/*----------------------------------------------------------Contacto----------------------------------------------------------*/
+.div-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.form {
+  margin: 0rem 4rem 0rem 5rem;
+}
+
+.text-div {
+  padding: 5rem 30rem 2rem 5rem;
+}
+
+.div-card {
+  padding: 4rem 9rem 5rem 0rem;
+}
+
+.from-label-edit {
+  padding: 1rem 0rem 0rem 0rem;
+}
+
+.form-control-edit {
+  width: 40rem;
+}
+
+.btn-primary-edit {
+  width: 40rem;
+  background-color: #4f36aa;
+  margin-bottom: 5rem;
+}
+
+/*----------------------------------------------------------Nosotros----------------------------------------------------------*/
+.container-edit-nosotros {
+  margin: 10rem;
+  text-align: justify;
+}
+
+.col-edit-text-nosotros {
+  background-color: rgba(236, 236, 236, 0.801);
+}
+
+.col-edit-nosotros {
+  padding: 5rem;
+  -webkit-box-shadow: 5rem;
+          box-shadow: 5rem;
+}
+
+.img-nosotros-edit {
+  width: 500px;
+  -webkit-box-shadow: 5px 5px 5px rgba(156, 156, 156, 0.801);
+          box-shadow: 5px 5px 5px rgba(156, 156, 156, 0.801);
+  border-radius: 2px;
+}
+
+.title-nosotros {
   text-align: center;
-  background-color: #f3f1f1;
+  margin-top: 4rem;
+  background-color: rgba(236, 236, 236, 0.801);
+  padding: 5rem;
 }
 /*# sourceMappingURL=main.css.map */
