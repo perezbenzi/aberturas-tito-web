@@ -1,323 +1,321 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    list-style: none;
-    text-decoration: none;
-    font-family: 'Noto Sans Display', sans-serif;
-    font-weight: 800;
-    color: rgb(0, 0, 0)
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Noto Sans Display", sans-serif;
+  font-weight: 800;
+  color: rgb(0, 0, 0);
 }
 
 p {
-    font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
-
-
-
 
 /*----------------------------------------------------------General----------------------------------------------------------*/
 
-
 /*-----------------------------Navbar-----------------------------*/
 .navbar-edit {
-    background-color: rgb(79, 54, 170) !important;
-}
-
-.imagen-portada-edit {
-    box-shadow: 000px 2px rgba(173, 168, 168, 0.712);
+  background-color: rgb(42, 46, 141) !important;
 }
 
 .navbar-toggler-edit {
-    border: none;
+  border: none;
 }
 
 .logo {
-    border-radius: 3px;
-    width: 15rem;
-    border: solid rgba(0, 0, 0, 0.356);
-    border-width: 0.09rem;
+  width: 14rem;
+  margin-left: 0.5rem;
 }
-
 
 /*-------------------------Footer-------------------------*/
 
 .footer-page {
+  width: 100%;
+  background-color: rgb(42, 46, 141);
+
+  .grupo1pie {
     width: 100%;
-    background-color:rgb(79, 54, 170);
+    max-width: 1200px;
+    margin: auto;
+    padding: 45px 0px;
 
-    .grupo1pie {
-        width: 100%;
-        max-width: 1200px;
-        margin: auto;
-        padding: 45px 0px;
-
-        .box figure {
-            width: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
+    .box figure {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
+  }
 }
 
 figure img {
-    width: 200px;
-    border-radius: 2px;
+  width: 200px;
+  border-radius: 2px;
 }
 
 .footer-page .grupo1pie .boxFooter h2 {
-    color: rgb(0, 0, 0);
-    margin-bottom: 15px;
-    font-size: 20px;
-    text-align: center;
+  color: rgb(0, 0, 0);
+  margin-bottom: 15px;
+  font-size: 20px;
+  text-align: center;
 }
 
 .footer-page .grupo1pie .boxFooter p {
-    color: rgb(0, 0, 0);
-    margin-bottom: 10px;
-    text-align: center;
+  color: rgb(0, 0, 0);
+  margin-bottom: 10px;
+  text-align: center;
 }
 
 .redSocial {
-    display: flex;
-    justify-content: center;
-
+  display: flex;
+  justify-content: center;
 }
 
 .footer-page .grupo2pie {
-    background-color: rgb(48, 24, 134);
-    padding: 10px 15px;
-    text-align: center;
+  background-color: rgb(37, 13, 124);
+  padding: 10px 15px;
+  text-align: center;
 }
-
-
-
 
 /*----------------------------------------------------------Inicio----------------------------------------------------------*/
 
 /*-----------------------------Main (First Section)-----------------------------*/
 
 .main {
-    padding-top: 1rem;
+  padding-top: 1rem;
 
-    .imagen-portada {
-        height: 60vh;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        display: flex;
-        background-size: cover;
-        background-attachment: fixed;
-        background-color:rgb(105, 105, 105);
-        background-blend-mode: soft-light ;
-        background-image: rgb(255, 255, 255);
-        background-image: linear-gradient(0deg, rgba(107, 106, 106, 0.349) 0%, rgba(255, 255, 255, 0.082) 100%), url(../img/img-aberturas-varias.jpg)
-    }
+  .imagen-portada {
+    height: 60vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: rgb(105, 105, 105);
+    background-blend-mode: soft-light;
+    background-image: rgb(255, 255, 255);
+    background-image: linear-gradient(
+        0deg,
+        rgba(107, 106, 106, 0.349) 0%,
+        rgba(255, 255, 255, 0.082) 100%
+      ),
+      url(../img/img-aberturas-varias.jpg);
+  }
 }
 
-
 .boton {
-    padding: 0.4rem;
-    border: solid rgb(0, 0, 0);
-    border-width: 0.1rem;
-    display: inline-block;
-    border-radius: 3.5px;
-    font-weight: 800px;
-    background-color: rgba(88, 85, 85, 0.644);
+  padding: 0.4rem;
+  border: solid rgb(0, 0, 0);
+  border-width: 0.1rem;
+  display: inline-block;
+  border-radius: 3.5px;
+  font-weight: 800px;
+  background-color: rgba(88, 85, 85, 0.644);
 
-    &:hover {
-        padding: 0.6rem 0.6rem;
-        transition: all 0.2s linear;
-    }
+  &:hover {
+    padding: 0.6rem 0.6rem;
+    transition: all 0.2s linear;
+  }
 
-    .contactanos {
-        margin-bottom: 0rem;
-    }
+  .contactanos {
+    margin-bottom: 0rem;
+  }
 }
 
 .second-div-main {
-    display: flex;
+  display: flex;
 }
 
 /*-----------------------------Main (Second Section)-----------------------------*/
 
 .container-edit {
-    padding-top: 8rem;
-    padding-bottom: 8rem;
-
+  padding-top: 8rem;
+  padding-bottom: 8rem;
 }
 
 .row-edit {
-    text-decoration: none;
-    margin-left: 2rem;
+  text-decoration: none;
+  margin-left: 2rem;
 }
 
 .col-edit {
-    padding: 0.8rem;
+  padding: 0.8rem;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 h3 {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 .text-second-div {
-    color: rgb(94, 94, 94);
-
-    
+  color: rgb(94, 94, 94);
 }
 
 /*-----------------------------Main (Third Section)-----------------------------*/
 
-.container-edit-2 { 
-    align-items: center;
-    background-color: rgb(223, 223, 224);
+.container-edit-2 {
+  align-items: center;
+  background-color: rgb(223, 223, 224);
 }
 
-.img-third-section { 
-    width: 500px;
+.img-third-section {
+  width: 500px;
 }
 
 .col-edit-third-section {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .col-edit-third-section2 {
-    background-color: rgb(243, 241, 241);
-    align-items: center;
-    padding: 5rem;
+  background-color: rgb(243, 241, 241);
+  align-items: center;
+  padding: 5rem;
 }
-
 
 /*-------------------------Section Acesorarse-------------------------*/
 
 .section-acesorarse {
-
-    .imagen-portada-acesorarse {
-        height: 60vh;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        display: flex;
-        background-size: cover;
-        background-color:rgb(105, 105, 105);
-        background-blend-mode: soft-light ;
-        background-image: rgb(255, 255, 255);
-        background-attachment: fixed;
-        background-image: linear-gradient(0deg, rgba(107, 106, 106, 0.349) 0%, rgba(255, 255, 255, 0.082) 100%), url(../img/img-acesorarse.jpg)
-    }
+  .imagen-portada-acesorarse {
+    height: 60vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    background-size: cover;
+    background-color: rgb(105, 105, 105);
+    background-blend-mode: soft-light;
+    background-image: rgb(255, 255, 255);
+    background-attachment: fixed;
+    background-image: linear-gradient(
+        0deg,
+        rgba(107, 106, 106, 0.349) 0%,
+        rgba(255, 255, 255, 0.082) 100%
+      ),
+      url(../img/img-acesorarse.jpg);
+  }
 }
 
-
 .boton {
-    padding: 0.4rem;
-    border: solid rgb(0, 0, 0);
-    border-width: 0.1rem;
-    display: inline-block;
-    border-radius: 3.5px;
-    font-weight: 800px;
-    background-color: rgba(88, 85, 85, 0.644);
+  padding: 0.4rem;
+  border: solid rgb(0, 0, 0);
+  border-width: 0.1rem;
+  display: inline-block;
+  border-radius: 3.5px;
+  font-weight: 800px;
+  background-color: rgba(88, 85, 85, 0.644);
 
-    &:hover {
-        padding: 0.6rem 0.6rem;
-        transition: all 0.2s linear;
-    }
+  &:hover {
+    padding: 0.6rem 0.6rem;
+    transition: all 0.2s linear;
+  }
 
-    .contactanos {
-        margin-bottom: 0rem;
-    }
+  .contactanos {
+    margin-bottom: 0rem;
+  }
 }
 
 .second-div-main {
-    display: flex;
+  display: flex;
 }
-
-
-
 
 /*----------------------------------------------------------Preguntas frecuentes----------------------------------------------------------*/
 
 .accordion-edit {
-    padding: 5rem;
-    margin-top: 1rem;
-    margin-bottom: 4rem;
+  padding: 5rem;
+  margin-top: 1rem;
+  margin-bottom: 4rem;
 }
 
 .title-faq {
-    font: inherit;
-    margin-top: 4rem;
-    padding: 4rem;
-    background-color: rgb(243, 241, 241);
-    text-align: center;
+  font: inherit;
+  margin-top: 4rem;
+  padding: 4rem;
+  background-color: rgb(243, 241, 241);
+  text-align: center;
 }
-
-
-
-
 
 /*----------------------------------------------------------Contacto----------------------------------------------------------*/
 
 .div-form {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .form {
-    margin: 0rem 4rem 0rem 5rem;
+  margin: 0rem 4rem 0rem 5rem;
 }
 
 .text-div {
-    padding: 5rem 30rem 2rem 5rem;
+  padding: 5rem 30rem 2rem 5rem;
 }
 
 .div-card {
-    padding: 4rem 9rem 5rem 0rem;
+  padding: 4rem 9rem 5rem 0rem;
 }
 
 .from-label-edit {
-    padding: 1rem 0rem 0rem 0rem;
+  padding: 1rem 0rem 0rem 0rem;
 }
 
 .form-control-edit {
-    width: 40rem;
+  width: 40rem;
 }
 
 .btn-primary-edit {
-    width: 40rem;
-    background-color: rgb(79, 54, 170);
-    margin-bottom: 5rem;
+  width: 40rem;
+  background-color: rgb(79, 54, 170);
+  margin-bottom: 5rem;
 }
 
 /*----------------------------------------------------------Nosotros----------------------------------------------------------*/
 
 .container-edit-nosotros {
-    margin: 10rem;
-    text-align: justify;
+  margin: 10rem;
+  text-align: justify;
 }
 
 .col-edit-text-nosotros {
-    background-color: rgba(236, 236, 236, 0.801);
+  background-color: rgba(236, 236, 236, 0.801);
 }
 
 .col-edit-nosotros {
-    padding: 5rem;
-    box-shadow: 5rem;
+  padding: 5rem;
+  box-shadow: 5rem;
 }
 
 .img-nosotros-edit {
-    width: 500px;
-    box-shadow: 5px 5px 5px rgba(156, 156, 156, 0.801);
-    border-radius: 2px;
+  width: 500px;
+  box-shadow: 5px 5px 5px rgba(156, 156, 156, 0.801);
+  border-radius: 2px;
 }
 
 .title-nosotros {
-    text-align: center;
-    margin-top: 4rem;
-    background-color: rgba(236, 236, 236, 0.801);
-    padding: 5rem;
+  text-align: center;
+  margin-top: 4rem;
+  background-color: rgba(236, 236, 236, 0.801);
+  padding: 5rem;
+}
+
+/*----------------------------------------------------------Donde encontrarnos----------------------------------------------------------*/
+
+.map {
+  margin: 1rem 0rem 2rem 7rem;
+}
+
+.text-div-de {
+  margin: 7rem 0rem 0rem 7rem;
+}
+
+/*----------------------------------------------------------Productos----------------------------------------------------------*/
+
+.container-edit-products {
+  margin-top: 8rem;
+  margin-bottom: 5rem;
 }

@@ -5,24 +5,19 @@
           box-sizing: border-box;
   list-style: none;
   text-decoration: none;
-  font-family: 'Noto Sans Display', sans-serif;
+  font-family: "Noto Sans Display", sans-serif;
   font-weight: 800;
   color: black;
 }
 
 p {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 /*----------------------------------------------------------General----------------------------------------------------------*/
 /*-----------------------------Navbar-----------------------------*/
 .navbar-edit {
-  background-color: #4f36aa !important;
-}
-
-.imagen-portada-edit {
-  -webkit-box-shadow: 0px 2px rgba(173, 168, 168, 0.712);
-          box-shadow: 0px 2px rgba(173, 168, 168, 0.712);
+  background-color: #2a2e8d !important;
 }
 
 .navbar-toggler-edit {
@@ -30,16 +25,14 @@ p {
 }
 
 .logo {
-  border-radius: 3px;
-  width: 15rem;
-  border: solid rgba(0, 0, 0, 0.356);
-  border-width: 0.09rem;
+  width: 14rem;
+  margin-left: 0.5rem;
 }
 
 /*-------------------------Footer-------------------------*/
 .footer-page {
   width: 100%;
-  background-color: #4f36aa;
+  background-color: #2a2e8d;
 }
 
 .footer-page .grupo1pie {
@@ -90,7 +83,7 @@ figure img {
 }
 
 .footer-page .grupo2pie {
-  background-color: #301886;
+  background-color: #250d7c;
   padding: 10px 15px;
   text-align: center;
 }
@@ -331,5 +324,20 @@ h3 {
   margin-top: 4rem;
   background-color: rgba(236, 236, 236, 0.801);
   padding: 5rem;
+}
+
+/*----------------------------------------------------------Donde encontrarnos----------------------------------------------------------*/
+.map {
+  margin: 1rem 0rem 2rem 7rem;
+}
+
+.text-div-de {
+  margin: 7rem 0rem 0rem 7rem;
+}
+
+/*----------------------------------------------------------Productos----------------------------------------------------------*/
+.container-edit-products {
+  margin-top: 8rem;
+  margin-bottom: 5rem;
 }
 /*# sourceMappingURL=main.css.map */
