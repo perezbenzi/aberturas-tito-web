@@ -249,20 +249,12 @@ figure img {
 /*----------------------------------------------------------Productos----------------------------------------------------------*/
 
 .div-text-products {
-  margin: 10rem 15rem 2rem 4rem;
+  margin: 7rem 10rem 1rem 1rem;
 }
 
-.col-edit-products {
-  margin-bottom: 2rem;
-  margin-left: 5rem;
-  .card-edit-products {
-    background-color: rgba(236, 236, 236, 0.801);
-    border-radius: 0px;
-    .btn-products-edit {
-      background-color: rgb(42, 46, 141);
-      border: rgb(42, 46, 141);
-    }
-  }
+.container-products-edit {
+  margin-bottom: 5rem;
+  justify-content: center;
 }
 
 /*----------------------------------------------------------Media queries----------------------------------------------------------*/
@@ -309,39 +301,29 @@ figure img {
   }
 }
 
-/*----------------------------------------------------------Donde encontrarnos----------------------------------------------------------*/
+/*----------------------------------------------------------Productos----------------------------------------------------------*/
 
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 1000px) {
   .div-text-products {
-    margin: 9rem 0rem 2rem 1rem;
+    margin: 7rem 7rem 5rem 1rem;
+    text-justify: auto;
   }
 
-  .container-edit-products {
-    .col-edit-products {
-      margin-bottom: 2rem;
-      .card-edit-products {
-        background-color: rgba(236, 236, 236, 0.801);
-        border-radius: 0px;
-        .btn-products-edit {
-          background-color: rgb(42, 46, 141);
-          border: rgb(42, 46, 141);
-        }
-      }
-    }
+  .container-products-edit {
+    margin-bottom: 5rem;
+    justify-content: center;
   }
 }
 
-@media screen and (max-width: 450px) {
-  .col-edit-products {
-    margin-bottom: 2rem;
-    margin-left: 0.5rem;
-    .card-edit-products {
-      background-color: rgba(236, 236, 236, 0.801);
-      border-radius: 0px;
-      .btn-products-edit {
-        background-color: rgb(42, 46, 141);
-        border: rgb(42, 46, 141);
-      }
-    }
+@media screen and (max-width: 330px) {
+  .div-text-products {
+    margin: 7rem 1rem 1rem 1rem;
+    text-justify: auto;
+  }
+
+  .container-products-edit {
+    margin-bottom: 5rem;
+    margin-left: 1rem;
+    justify-content: center;
   }
 }

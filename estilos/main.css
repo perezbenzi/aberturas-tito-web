@@ -262,22 +262,14 @@ figure img {
 
 /*----------------------------------------------------------Productos----------------------------------------------------------*/
 .div-text-products {
-  margin: 10rem 15rem 2rem 4rem;
+  margin: 7rem 10rem 1rem 1rem;
 }
 
-.col-edit-products {
-  margin-bottom: 2rem;
-  margin-left: 5rem;
-}
-
-.col-edit-products .card-edit-products {
-  background-color: rgba(236, 236, 236, 0.801);
-  border-radius: 0px;
-}
-
-.col-edit-products .card-edit-products .btn-products-edit {
-  background-color: #2a2e8d;
-  border: #2a2e8d;
+.container-products-edit {
+  margin-bottom: 5rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 /*----------------------------------------------------------Media queries----------------------------------------------------------*/
@@ -322,36 +314,31 @@ figure img {
   }
 }
 
-/*----------------------------------------------------------Donde encontrarnos----------------------------------------------------------*/
-@media screen and (max-width: 1080px) {
+/*----------------------------------------------------------Productos----------------------------------------------------------*/
+@media screen and (max-width: 1000px) {
   .div-text-products {
-    margin: 9rem 0rem 2rem 1rem;
+    margin: 7rem 7rem 5rem 1rem;
+    text-justify: auto;
   }
-  .container-edit-products .col-edit-products {
-    margin-bottom: 2rem;
-  }
-  .container-edit-products .col-edit-products .card-edit-products {
-    background-color: rgba(236, 236, 236, 0.801);
-    border-radius: 0px;
-  }
-  .container-edit-products .col-edit-products .card-edit-products .btn-products-edit {
-    background-color: #2a2e8d;
-    border: #2a2e8d;
+  .container-products-edit {
+    margin-bottom: 5rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 
-@media screen and (max-width: 450px) {
-  .col-edit-products {
-    margin-bottom: 2rem;
-    margin-left: 0.5rem;
+@media screen and (max-width: 330px) {
+  .div-text-products {
+    margin: 7rem 1rem 1rem 1rem;
+    text-justify: auto;
   }
-  .col-edit-products .card-edit-products {
-    background-color: rgba(236, 236, 236, 0.801);
-    border-radius: 0px;
-  }
-  .col-edit-products .card-edit-products .btn-products-edit {
-    background-color: #2a2e8d;
-    border: #2a2e8d;
+  .container-products-edit {
+    margin-bottom: 5rem;
+    margin-left: 1rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 /*# sourceMappingURL=main.css.map */
