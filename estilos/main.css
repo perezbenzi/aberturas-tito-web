@@ -4,7 +4,6 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   list-style: none;
-  text-decoration: none;
   font-family: "Noto Sans Display", sans-serif;
   font-weight: 800;
   color: black;
@@ -12,6 +11,8 @@
 
 p {
   font-family: "Montserrat", sans-serif;
+  color: black;
+  text-decoration: none;
 }
 
 a {
@@ -164,35 +165,6 @@ figure img {
   color: #5e5e5e;
 }
 
-/*-----------------------------Main (Third Section)-----------------------------*/
-.container-edit-2 {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background-color: #dfdfe0;
-}
-
-.container-edit-2 .col-edit-third-section {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.container-edit-2 .col-edit-third-section .img-third-section {
-  width: 500px;
-}
-
-.container-edit-2 .col-edit-third-section2 {
-  background-color: #f3f1f1;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 5rem;
-}
-
 /*-------------------------Section Acesorarse-------------------------*/
 .section-acesorarse .imagen-portada-acesorarse {
   height: 60vh;
@@ -261,6 +233,15 @@ figure img {
   padding: 5rem 30rem 2rem 5rem;
 }
 
+.form-edit {
+  padding: 0rem 5rem 5rem 5rem;
+}
+
+.card {
+  margin-right: 3rem;
+  margin-top: 2rem;
+}
+
 .div-form {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -270,117 +251,107 @@ figure img {
           justify-content: space-between;
 }
 
-.div-form .form {
-  margin: 0rem 4rem 0rem 5rem;
-}
-
-.div-form .form .from-label-edit {
-  padding: 1rem 0rem 0rem 0rem;
-}
-
-.div-form .form .from-label-edit .form-control-edit {
-  width: 40rem;
-}
-
-.div-form .form .btn-primary-edit {
-  width: 40rem;
-  background-color: #4f36aa;
-  margin-bottom: 5rem;
+/*----------------------------------------------------------Donde encontrarnos----------------------------------------------------------*/
+.text-div-de {
+  margin: 7rem 7rem 0rem 7rem;
 }
 
 .div-card {
-  padding: 4rem 9rem 5rem 0rem;
-}
-
-/*----------------------------------------------------------Nosotros----------------------------------------------------------*/
-.title-nosotros {
-  text-align: center;
-  margin-top: 4rem;
-  background-color: rgba(236, 236, 236, 0.801);
-  padding: 5rem;
-}
-
-.container-edit-nosotros {
-  margin: 10rem;
-  text-align: justify;
-}
-
-.container-edit-nosotros .col-edit-text-nosotros {
-  background-color: rgba(236, 236, 236, 0.801);
-}
-
-.container-edit-nosotros .col-edit-nosotros {
-  padding: 5rem;
-  -webkit-box-shadow: 5rem;
-          box-shadow: 5rem;
-}
-
-.container-edit-nosotros .img-nosotros-edit {
-  width: 500px;
-  -webkit-box-shadow: 5px 5px 5px rgba(156, 156, 156, 0.801);
-          box-shadow: 5px 5px 5px rgba(156, 156, 156, 0.801);
-  border-radius: 2px;
-}
-
-/*----------------------------------------------------------Donde encontrarnos----------------------------------------------------------*/
-.map {
-  margin: 1rem 0rem 2rem 7rem;
-}
-
-.text-div-de {
-  margin: 7rem 0rem 0rem 7rem;
+  margin: 3rem 3rem 3rem 7rem;
 }
 
 /*----------------------------------------------------------Productos----------------------------------------------------------*/
 .div-text-products {
-  padding: 2rem 15rem 2rem 4rem;
+  margin: 10rem 15rem 2rem 4rem;
 }
 
-.container-edit-products {
-  margin-top: 1rem;
-  margin-bottom: 5rem;
-  margin-right: 2rem;
-}
-
-.container-edit-products .col-edit-products {
+.col-edit-products {
   margin-bottom: 2rem;
+  margin-left: 5rem;
 }
 
-.container-edit-products .col-edit-products .card-edit-products {
+.col-edit-products .card-edit-products {
   background-color: rgba(236, 236, 236, 0.801);
   border-radius: 0px;
 }
 
-.container-edit-products .col-edit-products .card-edit-products .btn-products-edit {
+.col-edit-products .card-edit-products .btn-products-edit {
   background-color: #2a2e8d;
   border: #2a2e8d;
 }
 
 /*----------------------------------------------------------Media queries----------------------------------------------------------*/
+/*----------------------------------------------------------Contacto----------------------------------------------------------*/
 @media screen and (max-width: 1084px) {
   .text-div {
     padding: 2rem;
   }
-  .div-form {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+  .imagen-portada-acesorarse {
+    margin-top: 5rem;
+    height: 60vh;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-size: cover;
+    background-color: dimgray;
+    background-blend-mode: soft-light;
+    background-image: white;
+    background-attachment: fixed;
+    background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(107, 106, 106, 0.349)), to(rgba(255, 255, 255, 0.082))), url(../img/img-acesorarse.jpg);
+    background-image: linear-gradient(0deg, rgba(107, 106, 106, 0.349) 0%, rgba(255, 255, 255, 0.082) 100%), url(../img/img-acesorarse.jpg);
   }
-  .div-form .form {
-    margin: 0rem 4rem 0rem 5rem;
+  .form-edit {
+    padding: 0rem 2rem 2rem 2rem;
   }
-  .div-form .form .from-label-edit {
-    padding: 1rem 0rem 0rem 0rem;
-  }
-  .div-form .form .from-label-edit .form-control-edit {
-    width: 40rem;
-  }
-  .div-form .form .btn-primary-edit {
-    width: 40rem;
-    background-color: #4f36aa;
-    margin-bottom: 5rem;
+}
+
+/*----------------------------------------------------------Donde encontrarnos----------------------------------------------------------*/
+@media screen and (max-width: 470px) {
+  .text-div-de {
+    margin: 10rem 2rem 2rem 2rem;
   }
   .div-card {
-    padding: 0rem 0rem 2rem 15rem;
+    margin: 1rem;
+  }
+}
+
+/*----------------------------------------------------------Donde encontrarnos----------------------------------------------------------*/
+@media screen and (max-width: 1080px) {
+  .div-text-products {
+    margin: 9rem 0rem 2rem 1rem;
+  }
+  .container-edit-products .col-edit-products {
+    margin-bottom: 2rem;
+  }
+  .container-edit-products .col-edit-products .card-edit-products {
+    background-color: rgba(236, 236, 236, 0.801);
+    border-radius: 0px;
+  }
+  .container-edit-products .col-edit-products .card-edit-products .btn-products-edit {
+    background-color: #2a2e8d;
+    border: #2a2e8d;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .col-edit-products {
+    margin-bottom: 2rem;
+    margin-left: 0.5rem;
+  }
+  .col-edit-products .card-edit-products {
+    background-color: rgba(236, 236, 236, 0.801);
+    border-radius: 0px;
+  }
+  .col-edit-products .card-edit-products .btn-products-edit {
+    background-color: #2a2e8d;
+    border: #2a2e8d;
   }
 }
 /*# sourceMappingURL=main.css.map */

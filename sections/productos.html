@@ -25,13 +25,51 @@
     <link rel="shortcut icon" href="../img/favicon.ico">
   </head>
 
+
+  <!-------------------------------Header------------------------------------->
+
+
+  <nav class="navbar-edit navbar navbar-light bg-light fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="../index.html"><img src="../img/aberturas-tito-logo-navbar.png"
+          alt="logoAberturasTito" class="logo"></a>
+      <button class="navbar-toggler navbar-toggler-edit" type="button" data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body offcanvas-edit">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../sections/contacto.html">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../sections/donde-encontrarnos.html">Donde
+                encontrarnos</a>
+            </li>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../sections/preguntas-frecuentes.html">Preguntas
+                Frecuentes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../sections/productos.html">Productos</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-------------------------------Main------------------------------------->
+
   <main>
 
-    <!-------------------------------Header------------------------------------->
 
-    <div class="title-nosotros">
-      <h1>Nuestros productos</h1>
-    </div>
     <div class="div-text-products">
       <h4>Debajo encontraras una galeria con algunos de nuestros productos mas vendidos. Cada abertura de estas imagenes
         pertenece a uno de nuestros proveedores <a href="https://www.rupal.com.ar/">Rupal</a>.</h4>
@@ -42,50 +80,9 @@
       </h5>
     </div>
 
-    <nav class="navbar-edit navbar navbar-light bg-light fixed-top">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="../index.html"><img src="../img/aberturas-tito-logo-navbar.png"
-            alt="logoAberturasTito" class="logo"></a>
-        <button class="navbar-toggler navbar-toggler-edit" type="button" data-bs-toggle="offcanvas"
-          data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-          <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
-            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-          </div>
-          <div class="offcanvas-body offcanvas-edit">
-            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="../sections/nosotros.html">Nosotros</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="../sections/contacto.html">Contacto</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="../sections/donde-encontrarnos.html">Donde
-                  encontrarnos</a>
-              </li>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="../sections/preguntas-frecuentes.html">Preguntas
-                  Frecuentes</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="../sections/productos.html">Productos</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </nav>
-
-    <!-------------------------------Main------------------------------------->
-
-    <div class="container container-edit-products">
+    <div class="container-edit-products">
       <div class="row">
-        <div class="col col-edit-products">
+        <div class="col-xl col-edit-products">
           <div class="card card-edit-products" style="width: 18rem;">
             <img src="../img/postigo.jpg" class="card-img-top" alt="postigo">
             <div class="card-body">
@@ -145,9 +142,7 @@
             <img src="../img/ventana-corrediza.jpg" class="card-img-top" alt="ventana-corrediza">
             <div class="card-body">
               <h5 class="card-title">Ventana corrediza</h5>
-              <h6 class="card-title">$10.500
-
-              </h6>
+              <h6 class="card-title">$10.500</h6>
               <p class="card-text">Ventana corrediza linea herrero, aluminio reforzado.
               </p>
               <a href="./contacto.html" class="btn btn-products-edit btn-primary">Mas informacion</a>
@@ -156,6 +151,7 @@
         </div>
       </div>
     </div>
+
 
   </main>
 
