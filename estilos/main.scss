@@ -13,6 +13,10 @@ p {
   font-family: "Montserrat", sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
 /*----------------------------------------------------------General----------------------------------------------------------*/
 
 /*-----------------------------Navbar-----------------------------*/
@@ -132,29 +136,18 @@ figure img {
 /*-----------------------------Main (Second Section)-----------------------------*/
 
 .container-edit {
-  padding-top: 8rem;
-  padding-bottom: 8rem;
-}
-
-.row-edit {
-  text-decoration: none;
-  margin-left: 2rem;
-}
-
-.col-edit {
-  padding: 0.8rem;
-}
-
-a {
-  text-decoration: none;
-}
-
-h3 {
-  font-size: 2rem;
-}
-
-.text-second-div {
-  color: rgb(94, 94, 94);
+  margin-top: 5rem;
+  margin-bottom: 8rem;
+  .row-edit {
+    text-decoration: none;
+    margin-left: 2rem;
+    .col-edit {
+      padding: 0.8rem;
+      .text-second-div {
+        color: rgb(94, 94, 94);
+      }
+    }
+  }
 }
 
 /*-----------------------------Main (Third Section)-----------------------------*/
@@ -162,21 +155,18 @@ h3 {
 .container-edit-2 {
   align-items: center;
   background-color: rgb(223, 223, 224);
-}
-
-.img-third-section {
-  width: 500px;
-}
-
-.col-edit-third-section {
-  display: flex;
-  justify-content: center;
-}
-
-.col-edit-third-section2 {
-  background-color: rgb(243, 241, 241);
-  align-items: center;
-  padding: 5rem;
+  .col-edit-third-section {
+    display: flex;
+    justify-content: center;
+    .img-third-section {
+      width: 500px;
+    }
+  }
+  .col-edit-third-section2 {
+    background-color: rgb(243, 241, 241);
+    align-items: center;
+    padding: 5rem;
+  }
 }
 
 /*-------------------------Section Acesorarse-------------------------*/
@@ -243,64 +233,57 @@ h3 {
 
 /*----------------------------------------------------------Contacto----------------------------------------------------------*/
 
+.text-div {
+  padding: 5rem 30rem 2rem 5rem;
+}
+
 .div-form {
   display: flex;
   justify-content: space-between;
-}
-
-.form {
-  margin: 0rem 4rem 0rem 5rem;
-}
-
-.text-div {
-  padding: 5rem 30rem 2rem 5rem;
+  .form {
+    margin: 0rem 4rem 0rem 5rem;
+    .from-label-edit {
+      padding: 1rem 0rem 0rem 0rem;
+      .form-control-edit {
+        width: 40rem;
+      }
+    }
+    .btn-primary-edit {
+      width: 40rem;
+      background-color: rgb(79, 54, 170);
+      margin-bottom: 5rem;
+    }
+  }
 }
 
 .div-card {
   padding: 4rem 9rem 5rem 0rem;
 }
 
-.from-label-edit {
-  padding: 1rem 0rem 0rem 0rem;
-}
-
-.form-control-edit {
-  width: 40rem;
-}
-
-.btn-primary-edit {
-  width: 40rem;
-  background-color: rgb(79, 54, 170);
-  margin-bottom: 5rem;
-}
-
 /*----------------------------------------------------------Nosotros----------------------------------------------------------*/
-
-.container-edit-nosotros {
-  margin: 10rem;
-  text-align: justify;
-}
-
-.col-edit-text-nosotros {
-  background-color: rgba(236, 236, 236, 0.801);
-}
-
-.col-edit-nosotros {
-  padding: 5rem;
-  box-shadow: 5rem;
-}
-
-.img-nosotros-edit {
-  width: 500px;
-  box-shadow: 5px 5px 5px rgba(156, 156, 156, 0.801);
-  border-radius: 2px;
-}
 
 .title-nosotros {
   text-align: center;
   margin-top: 4rem;
   background-color: rgba(236, 236, 236, 0.801);
   padding: 5rem;
+}
+
+.container-edit-nosotros {
+  margin: 10rem;
+  text-align: justify;
+  .col-edit-text-nosotros {
+    background-color: rgba(236, 236, 236, 0.801);
+  }
+  .col-edit-nosotros {
+    padding: 5rem;
+    box-shadow: 5rem;
+  }
+  .img-nosotros-edit {
+    width: 500px;
+    box-shadow: 5px 5px 5px rgba(156, 156, 156, 0.801);
+    border-radius: 2px;
+  }
 }
 
 /*----------------------------------------------------------Donde encontrarnos----------------------------------------------------------*/
@@ -315,7 +298,53 @@ h3 {
 
 /*----------------------------------------------------------Productos----------------------------------------------------------*/
 
+.div-text-products {
+  padding: 2rem 15rem 2rem 4rem;
+}
+
 .container-edit-products {
-  margin-top: 8rem;
+  margin-top: 1rem;
   margin-bottom: 5rem;
+  margin-right: 2rem;
+  .col-edit-products {
+    margin-bottom: 2rem;
+    .card-edit-products {
+      background-color: rgba(236, 236, 236, 0.801);
+      border-radius: 0px;
+      .btn-products-edit {
+        background-color: rgb(42, 46, 141);
+        border: rgb(42, 46, 141);
+      }
+    }
+  }
+}
+
+/*----------------------------------------------------------Media queries----------------------------------------------------------*/
+
+@media screen and (max-width: 1084px) {
+  .text-div {
+    padding: 2rem;
+  }
+
+  .div-form {
+    flex-wrap: wrap;
+    .form {
+      margin: 0rem 4rem 0rem 5rem;
+      .from-label-edit {
+        padding: 1rem 0rem 0rem 0rem;
+        .form-control-edit {
+          width: 40rem;
+        }
+      }
+      .btn-primary-edit {
+        width: 40rem;
+        background-color: rgb(79, 54, 170);
+        margin-bottom: 5rem;
+      }
+    }
+  }
+
+  .div-card {
+    padding: 0rem 0rem 2rem 15rem;
+  }
 }
