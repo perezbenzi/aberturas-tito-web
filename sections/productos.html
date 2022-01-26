@@ -28,145 +28,109 @@
 
   <!-------------------------------Header------------------------------------->
 
+  <body>
 
-  <nav class="navbar-edit navbar navbar-light bg-light fixed-top">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="../index.html"><img src="../img/aberturas-tito-logo-navbar.png"
-          alt="logoAberturasTito" class="logo"></a>
-      <button class="navbar-toggler navbar-toggler-edit" type="button" data-bs-toggle="offcanvas"
-        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-        <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
-          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-        </div>
-        <div class="offcanvas-body offcanvas-edit">
-          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="../sections/contacto.html">Contacto</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="../sections/donde-encontrarnos.html">Donde
-                encontrarnos</a>
-            </li>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="../sections/preguntas-frecuentes.html">Preguntas
-                Frecuentes</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="../sections/productos.html">Productos</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </nav>
+    <script src="script.js"></script>
 
-  <!-------------------------------Main------------------------------------->
-
-  <main>
-
-
-    <div class="div-text-products">
-      <h4>Debajo encontraras una galeria con algunos de nuestros productos mas vendidos.</h4>
-      <h4>Cada abertura de estas imagenes
-        pertenece a uno de nuestros mejores proveedores: <a href="https://www.rupal.com.ar/">Rupal</a>.</h4>
-      <h5>Si estas interesado en
-        comprar o en alguna abertura que no se encuentra en nuestra galeria, dirigite a la seccion de contacto a
-        traves
-        de nuestro menu o haciendo click en el boton "Mas informacion" te podes comunicar con nostros por Whats App.
-      </h5>
+    <div class="ful-img" id="fulImgBox">
+      <img src="imgs/1.jpg" id="fulImg" alt="" />
+      <span onclick="closeImg()">X</span>
     </div>
 
-    <div class="container container-products-edit">
-      <div class="row row-cols-2 container-products-edit">
-        <div class="card" style="width: 18rem;">
-          <img src="../img/ventana-corrediza.jpg" class="card-img-top" alt="ventanaCorrediza">
-          <div class="card-body">
-            <h5 class="card-title">Ventana Corrediza 120x110</h5>
-            <p class="card-text">$8.500</p>
-            <a href="../sections/contacto.html" class="btn btn-primary">Realizar un pedido</a>
+    <nav class="navbar-edit navbar navbar-light bg-light fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html"><img src="../img/aberturas-tito-logo-navbar.png"
+            alt="logoAberturasTito" class="logo"></a>
+        <button class="navbar-toggler navbar-toggler-edit" type="button" data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
           </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-          <img src="../img/puerta-p20.jpg" class="card-img-top" alt="puerta-abrir-p20">
-          <div class="card-body">
-            <h5 class="card-title">Puerta de abrir M12 80x200</h5>
-            <p class="card-text">$20.900</p>
-            <a href="../sections/contacto.html" class="btn btn-primary">Realizar un pedido</a>
-          </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-          <img src="../img/postigo.jpg" class="card-img-top" alt="postigo">
-          <div class="card-body">
-            <h5 class="card-title">Postigon</h5>
-            <h5>120x110</h5>
-            <p class="card-text">$25.000</p>
-            <a href="../sections/contacto.html" class="btn btn-primary">Realizar un pedido</a>
-          </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-          <img src="../img/puerta-abrir-p10.jpg" class="card-img-top" alt="puerta-abrir-p10">
-          <div class="card-body">
-            <h5 class="card-title">Puerta de abrir M15 80x200</h5>
-            <p class="card-text">$25.500</p>
-            <a href="../sections/contacto.html" class="btn btn-primary">Realizar un pedido</a>
-          </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-          <img src="../img/puerta-abrir-p16.jpg" class="card-img-top" alt="puerta-abrir-p16">
-          <div class="card-body">
-            <h5 class="card-title">Puerta de abrir M16 80x200</h5>
-            <p class="card-text">$23.000</p>
-            <a href="../sections/contacto.html" class="btn btn-primary">Realizar un pedido</a>
-          </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-          <img src="../img/guillotina.jpg" class="card-img-top" alt="guillotina">
-          <div class="card-body">
-            <h5 class="card-title">Guillotina</h5>
-            <h5>50x100</h5>
-            <p class="card-text">$19.000</p>
-            <a href="../sections/contacto.html" class="btn btn-primary">Realizar un pedido</a>
+          <div class="offcanvas-body offcanvas-edit">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../sections/contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../sections/donde-encontrarnos.html">Donde
+                  encontrarnos</a>
+              </li>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../sections/preguntas-frecuentes.html">Preguntas
+                  Frecuentes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../sections/productos.html">Productos</a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
-    </div>
+    </nav>
 
 
+    <!-------------------------------Main------------------------------------->
 
-  </main>
+    <main>
 
-  <footer class="footer-page">
-    <div class="grupo1pie">
-      <div class="box">
-        <figure>
-          <a href="../index.html">
-            <img src="../img/aberturas-tito-logo-navbar.png" alt="logoAberturasTito">
-          </a>
-        </figure>
+      <div class="div-text-products">
+        <h2> Conoce algunas de nuestras aberturas</h2>
+        <h5>Si queres consultarnos por un presupuesto o por el precio de alguna de nuestras aberturas podes hablarnos
+          por
+          WhastApp en nuestra seccion de <a href="./contacto.html">contacto</a>.</h5>
       </div>
-      <div class="boxFooter">
-        <p>Bragado, Provincia de Buenos Aires</p>
-        <p>Rivadavia 835</p>
+
+      <div class="img-gallery">
+        <img src="../img/aireadores.jpg" onclick="openFulImg(this.src)" alt="">
+        <img src="../img/guillotina.jpg" onclick="openFulImg(this.src)" alt="">
+        <img src="../img/postigo.jpg" onclick="openFulImg(this.src)" alt="">
+        <img src="../img/puerta-abrir-p10.jpg" onclick="openFulImg(this.src)" alt="">
+        <img src="../img/puerta-abrir-p16.jpg" onclick="openFulImg(this.src)" alt="">
+        <img src="../img/puerta-p20.jpg" onclick="openFulImg(this.src)" alt="">
+        <img src="../img/puerta-p6.jpg" onclick="openFulImg(this.src)" alt="">
+        <img src="../img/ventana-corrediza.jpg" onclick="openFulImg(this.src)" alt="">
+        <img src="../img/puerta-abrir-p4.jpg" onclick="openFulImg(this.src)" alt="">
+        <img src="../img/raja-modelo-ingles-medio.jpg" onclick="openFulImg(this.src)" alt="">
+        <img src="../img/puerta-abrir-p1.jpg" onclick="openFulImg(this.src)" alt="">
+        <img src="../img/puerta-abrir-p10.jpg" onclick="openFulImg(this.src)" alt="">
       </div>
-      <div class="redSocial">
-        <a href="https://api.whatsapp.com/send?phone=2346590366&text=Hola, Nececito mas informacion!"><img
-            src="../img/icon-wp.png" alt="icon-wp" width=24rem></a>
-        <a href="https://www.facebook.com/rupalaberturas.bragado"><img src="../img/icon-fb.png" alt="icon-fb"
-            width=26rem></a>
-      </div>
-    </div>
-    <div class="grupo2pie boxFooter">
-      <small>&copy;2021 <b>Francisco Perez Benzi</b></small>
-    </div>
-  </footer>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
-    </script>
+
+
+    </main>
+
+    <footer>
+      <footer class="footer-page">
+        <div class="grupo1pie">
+          <div class="box">
+            <figure>
+              <a href="../index.html">
+                <img src="../img/aberturas-tito-logo-navbar.png" alt="logoAberturasTito">
+              </a>
+            </figure>
+          </div>
+          <div class="boxFooter">
+            <p>Bragado, Provincia de Buenos Aires</p>
+            <p>Rivadavia 835</p>
+          </div>
+          <div class="redSocial">
+            <a href="https://api.whatsapp.com/send?phone=2346590366&text=Hola, Nececito mas informacion!"><img
+                src="../img/icon-wp.png" alt="icon-wp" width=24rem></a>
+            <a href="https://www.facebook.com/rupalaberturas.bragado"><img src="../img/icon-fb.png" alt="icon-fb"
+                width=26rem></a>
+          </div>
+        </div>
+        <div class="grupo2pie boxFooter">
+          <small>&copy;2021 <b>Francisco Perez Benzi</b></small>
+        </div>
+      </footer>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
+        </script>
   </body>
 
 </html>
